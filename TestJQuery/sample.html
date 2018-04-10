@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+
+<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#newdiv").click(function() {
+      alert("Hello world!");
+    });
+});
+
+$(document).ready(function(){
+ $("#msgid").html("This is Hello World by JQuery");
+});
+
+</script>
+
+This is Hello World by HTML
+
+<div id="msgid">
+</div>
+<br><br>
+<div id="newdiv">
+Click on this to see a dialog box.
+</div>
+</body>
+</html>
